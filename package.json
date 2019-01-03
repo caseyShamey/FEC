@@ -8,17 +8,26 @@
     "node": ">=6.13.0"
   },
   "scripts": {
-    "start": "nodemon server/server.js --watch server --exec babel-node"
+    "start": "nodemon server/server.js --watch server",
+    "build": "webpack -d --watch"
   },
   "dependencies": {
-    "express": "^4.16.4"
+    "dom": "0.0.3",
+    "express": "^4.16.4",
+    "moment": "^2.23.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.2.0",
     "@babel/core": "^7.2.2",
     "@babel/node": "^7.2.2",
-    "@babel/preset-env": "^7.2.0",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
     "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor",
-    "nodemon": "^1.18.9"
+    "nodemon": "^1.18.9",
+    "webpack": "^4.28.2",
+    "webpack-cli": "^3.1.2"
   }
 }
