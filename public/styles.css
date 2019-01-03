@@ -1,0 +1,64 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.pledge-info {
+  border: thin solid;
+  border-color: lightgrey;
+  text-align: left;
+  padding: 15px;
+}
+
+.pledge-info-hover {
+}
+
+.pledge-detail {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 15px 0px 0px;
+}
+.detail-text {
+  margin: 0px 0px 5px;
+}
+
+.small-caps {
+  /* font-variant: all-small-caps; */
+  text-transform: uppercase;
+  font-size: x-small;
+  color: grey;
+}
+
+.red-text {
+  color: red;
+}
+
+.grey-text {
+  color: grey;
+}
+
+.small-text {
+  font-size: smaller;
+}
+
+.extra-info-box {
+  display: flex;
+  justify-content: left;
+}
+
+.backer-info {
+}
+.pledge-reward-description {
+}
+
+.header {
+}
+
+p {
+}
+
+div {
+}
+
+li {
+}
