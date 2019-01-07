@@ -11,12 +11,6 @@ var backerSchema = mongoose.Schema({
 
 var Backer = mongoose.model('Backer', backerSchema);
 
-Backer.countDocuments({}, function(err, count) {
-  if (count > 0) {
-    Backer.collection.drop();
-  }
-});
-
 Backer.on('error', function(err) {
   if (err) {
     console.error(err);
